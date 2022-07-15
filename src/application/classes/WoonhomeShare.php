@@ -22,6 +22,13 @@ class WoonhomeShare {
     );
 
     /**
+     * Website url
+     *
+     * @var string
+     */
+    private $website_url = 'https://woonhome.nl/';
+
+    /**
      * Product API
      *
      * @var string
@@ -56,18 +63,29 @@ class WoonhomeShare {
      */
     public function start()
     {
+        // Get the structure
         $structure = Structure::getStructure();
 
+        // Return to website if structure is not set or empty
         if (!$structure || count($structure) == 0) {
-            //return false;
+            //echo 'empty: to '.$this->website_url;
+            //exit;
+            Structure::redirect($this->website_url, '302');
+            return false;
         }
 
         if (!Structure::isAllowedUserAgent()) {
-            //return false;
+            //echo 'not allowed user agent: to '.$this->website_url . Structure::structureToPath();
+            //exit;
+            Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+            return false;
         }
 
         if (!$this->isShareValid($structure)) {
-            //return false;
+            //echo 'no valid share: to '.$this->website_url . Structure::structureToPath();
+            //exit;
+            Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+            return false;
         }
 
         $data = $this->callApi();

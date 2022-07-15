@@ -271,4 +271,44 @@ abstract class Structure
 
         return $return;
     }
+
+    /**
+     * Convert structure to a path to use in a redirect or in template
+     *
+     * @return string
+     */
+    public static function structureToPath() : string
+    {
+        return implode('/', static::$structure);
+    }
+
+    /**
+     * Execute a redirect with the given URL
+     *
+     * @param string  $url            The new URL
+     * @param string  $header         Code for the right header
+     *
+     * @return null
+     */
+    public static function redirect($url, $header = "301")
+    {
+        if (!$url) {
+            throw new Exception("No URL specified");
+        }
+
+        // Send a header
+        $headers = array(
+            "301" => Structure::getServerVar("SERVER_PROTOCOL")." 301 Moved Permanently",
+            "302" => Structure::getServerVar("SERVER_PROTOCOL")." 302 Found"
+        );
+        if ($header && isset($headers[$header])) {
+            header($headers[$header]);
+        } else {
+            throw new Exception("Unknown redirect code: ".$header);
+        }
+
+        // Executes the redirect
+        header("Location: ".$url, true, $header);
+        exit;
+    }
 }
