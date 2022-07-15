@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content="https://woonhome.nl/sale/##permalink##" />
+    <meta property="og:type" content="product" />
+    <meta property="og:title" content="##seo_title##" />
+    <meta property="og:description" content="##seo_meta##" />
+    <meta property="og:image" content="##images##" />
+    <title>##seo_title##</title>
+    <meta name="description" content="##seo_meta##">
+    <link href="/files/style.css" rel="stylesheet" type="text/css" class="share">
+</head>
+<body>
+<div class="header">
+    <img class="logo" src="/files/woonhome-logo.png" alt="Woonhome"/>
+</div>
+<div class="content" itemtype="https://schema.org/Product" itemscope>
+    <div class="filler">&nbsp;</div>
+    <div class="breadcrumbs">##breadcrumbs##</div>
+    <div class="wrapper singleproduct">
+        <div class="half">
+            <div itemprop="image" content="##images##" class="images-wrapper">
+                <div class="image" style="background-image: url('##images##');">
+                </div>
+            </div>
+        </div>
+        <div class="half right">
+            <h1 itemprop="name" content="##name##">##name##</h1>
+            <div class="priceprod">
+                <span class="from" itemprop="price" >€ ##price##</span> <span class="green" >€ ##discount##</span>
+            </div>
+            <link itemprop="url" href="https://woonhome.nl/sale/##permalink##" />
+            <p itemprop="description">##description##</p>
+
+            <a target="_blank" href="##webshop_url##" class="btngreen">
+                <span class="show-mobile">Bestel in webshop</span>
+            </a>
+
+            <div class="singleprops">
+                <h2>Eigenschappen:</h2>
+                <div class="proprow">
+                    <div class="propleft">Kleur </div>
+                    <div class="propright"><span>##kleuren##</span></div>
+                </div>
+                <div class="proprow">
+                    <div class="propleft">Materiaal </div>
+                    <div class="propright"><span>##materialen##</span></div>
+                </div>
+                <div class="proprow">
+                    <meta itemprop="availability" content="https://schema.org/InStock" />
+                    <div class="propleft">Beschikbaarheid </div>
+                    <div class="propright"><a target="_blank" href="##webshop_url##">Bekijk de actuele voorraad</a></div>
+                </div>
+                <div class="proprow">
+                    <div class="propleft">Afmetingen </div>
+                    <div class="propright">##size##</div>
+                </div>
+                <div class="proprow">
+                    <div class="propleft">EAN </div>
+                    <div class="propright" itemprop="sku">##ean##</div>
+                </div>
+                <div class="proprow">
+                    <div class="propleft">Bezorginformatie </div>
+                    <div class="propright">##delivery##</div>
+                </div>
+                <br>
+                <a target="_blank" href="##webshop_url##" class="btnblue">
+                    <span class="show-mobile">Meer informatie</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper small">
+        <div class="single-author clear">
+            <div class="authorinfowrap">
+                <div class="single-author-avatar">
+                    <a href="https://woonhome.nl/gebruiker/##attr_slug##" target="_blank">
+                        <img width="71px" height="71px" src="##attr_img##">
+                    </a>
+                </div>
+                <div class="authorinfowrapdetails">
+                    <h3>##attr_name##</h3>
+                    <a href="##attr_url##" target="_blank">##attr_url_title##</a>
+                </div>
+            </div>
+            <div class="single-author-body">
+                <div class="single-author-text">
+                    <div class="single-author-about">
+                        ##attr_desc##<br>
+                    </div>
+                </div>
+                <div class="contactButtons">
+                    <a target="_blank" href="##attr_url##" class="btnblue">
+                        <span>Bekijk</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    &copy; ##year## <a href="https://woonhome.nl/" title="Woonhome">Woonhome</a> - Alle rechten onder voorbehoud
+</div>
+</body>
+</html>

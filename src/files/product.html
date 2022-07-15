@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta property="og:url" content="https://woonhome.nl/sale/##permalink##" />
+        <meta property="og:url" content="https://woonhome.nl/product/##permalink##" />
         <meta property="og:type" content="product" />
         <meta property="og:title" content="##seo_title##" />
         <meta property="og:description" content="##seo_meta##" />
@@ -14,7 +14,12 @@
         <link href="/files/style.css" rel="stylesheet" type="text/css" class="share">
     </head>
     <body>
-        <div class="content">
+        <div class="header">
+            <img class="logo" src="/files/woonhome-logo.png" alt="Woonhome"/>
+        </div>
+        <div class="content" itemtype="https://schema.org/Product" itemscope>
+            <div class="filler">&nbsp;</div>
+            <div class="breadcrumbs">##breadcrumbs##</div>
             <div class="wrapper singleproduct">
                 <div class="half">
                     <div itemprop="image" content="##images##" class="images-wrapper">
@@ -22,12 +27,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="half">
-                    <h1>##name##</h1>
+                <div class="half right">
+                    <h1 itemprop="name" content="##name##">##name##</h1>
                     <div class="priceprod">
-                        <span class="from">€ ##price##</span> <span class="green">€ ##discount##</span>
+                        <span class="from" itemprop="price" >€ ##price##</span> <span class="green" >€ ##discount##</span>
                     </div>
-                    <p>##description##</p>
+                    <link itemprop="url" href="https://woonhome.nl/product/##permalink##" />
+                    <p itemprop="description">##description##</p>
 
                     <a target="_blank" href="##webshop_url##" class="btngreen">
                         <span class="show-mobile">Bestel in webshop</span>
@@ -37,9 +43,14 @@
                         <h2>Eigenschappen:</h2>
                         <div class="proprow">
                             <div class="propleft">Kleur </div>
-                            <div class="propright"><span><span class="color blauw"></span>Blauw</span></div>
+                            <div class="propright"><span>##kleuren##</span></div>
                         </div>
                         <div class="proprow">
+                            <div class="propleft">Materiaal </div>
+                            <div class="propright"><span>##materialen##</span></div>
+                        </div>
+                        <div class="proprow">
+                            <meta itemprop="availability" content="https://schema.org/InStock" />
                             <div class="propleft">Beschikbaarheid </div>
                             <div class="propright"><a target="_blank" href="##webshop_url##">Bekijk de actuele voorraad</a></div>
                         </div>
@@ -49,7 +60,7 @@
                         </div>
                         <div class="proprow">
                             <div class="propleft">EAN </div>
-                            <div class="propright">##ean##</div>
+                            <div class="propright" itemprop="sku">##ean##</div>
                         </div>
                         <div class="proprow">
                             <div class="propleft">Bezorginformatie </div>
@@ -67,7 +78,7 @@
                 <div class="single-author clear">
                     <div class="authorinfowrap">
                         <div class="single-author-avatar">
-                            <a href="https://woonhome.nl/gebruiker/##attr_slug##" class="">
+                            <a href="https://woonhome.nl/gebruiker/##attr_slug##" target="_blank">
                                 <img width="71px" height="71px" src="##attr_img##">
                             </a>
                         </div>
@@ -90,6 +101,9 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="footer">
+            &copy; ##year## <a href="https://woonhome.nl/" title="Woonhome">Woonhome</a> - Alle rechten onder voorbehoud
         </div>
     </body>
 </html>

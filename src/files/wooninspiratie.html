@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:url" content="https://woonhome.nl/wooninspiratie/##permalink##" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="##post_title##" />
+    <meta property="og:description" content="##post_excerpt##" />
+    <meta property="og:image" content="##img_large##" />
+    <title>##post_title##</title>
+    <meta name="description" content="##post_excerpt##">
+    <link href="/files/style.css" rel="stylesheet" type="text/css" class="share">
+</head>
+<body>
+<div class="header">
+    <img class="logo" src="/files/woonhome-logo.png" alt="Woonhome"/>
+</div>
+<div class="content" itemtype="https://schema.org/Article" itemscope>
+    <div class="filler">&nbsp;</div>
+    <div class="wrapper article">
+        <div itemprop="image"
+             content="##img_large##"
+             class="big-header"
+             style="background-position: center center; background-size: cover; background-image: url('##img_large##')"></div>
+        <h1 itemprop="name" content="##post_title##">##post_title##</h1>
+        <div class="blog-meta">
+            <p itemprop="datePublished" content="##post_date_raw##">##post_date##</p>
+            <p itemprop="author" content="##post_author##">Door ##post_author##</p>
+        </div>
+        <div itemprop="description" class="blogpost-content wooninspiratie-single">##post_content##</div>
+    </div>
+</div>
+<div class="footer">
+    &copy; ##year## <a href="https://woonhome.nl/" title="Woonhome">Woonhome</a> - Alle rechten onder voorbehoud
+</div>
+</body>
+</html>

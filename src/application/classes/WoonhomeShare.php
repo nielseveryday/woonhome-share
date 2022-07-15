@@ -40,7 +40,7 @@ class WoonhomeShare {
      *
      * @var string
      */
-    private $content_api_url = 'https://wp.woonhome.nl/rest/';
+    private $content_api_url = 'https://wp.woonhome.nl/wp-json/whc/v1/';
 
     /**
      * First level structure (0)
@@ -57,9 +57,16 @@ class WoonhomeShare {
     private $second_level;
 
     /**
+     * Third level structure (2)
+     *
+     * @var string
+     */
+    private $third_level;
+
+    /**
      * Start the share app
      *
-     * @return string
+     * @return void
      */
     public function start()
     {
@@ -68,24 +75,24 @@ class WoonhomeShare {
 
         // Return to website if structure is not set or empty
         if (!$structure || count($structure) == 0) {
-            //echo 'empty: to '.$this->website_url;
-            //exit;
+            echo 'empty: to '.$this->website_url;
+            exit;
             Structure::redirect($this->website_url, '302');
-            return false;
+            exit;
         }
 
-        if (!Structure::isAllowedUserAgent()) {
-            //echo 'not allowed user agent: to '.$this->website_url . Structure::structureToPath();
-            //exit;
+        /*if (!Structure::isAllowedUserAgent()) {
+            echo 'not allowed user agent: to '.$this->website_url . Structure::structureToPath();
+            exit;
             Structure::redirect($this->website_url . Structure::structureToPath(), '302');
-            return false;
-        }
+            exit;
+        }*/
 
         if (!$this->isShareValid($structure)) {
-            //echo 'no valid share: to '.$this->website_url . Structure::structureToPath();
-            //exit;
+            echo 'no valid share: to '.$this->website_url . Structure::structureToPath();
+            exit;
             Structure::redirect($this->website_url . Structure::structureToPath(), '302');
-            return false;
+            exit;
         }
 
         $data = $this->callApi();
@@ -101,13 +108,22 @@ class WoonhomeShare {
      */
     private function isShareValid($structure): bool
     {
-        if (!in_array($structure[0], $this->share_structures) || count($structure) != 2) {
+        if (!in_array($structure[0], $this->share_structures)) {
+            return false;
+        }
+
+        if ($structure[0] !== 'woonwiki' && count($structure) != 2) {
+            return false;
+        }
+
+        if ($structure[0] === 'woonwiki' && count($structure) < 3) {
             return false;
         }
 
         // Set values
         $this->first_level = $structure[0];
         $this->second_level = $structure[1];
+        $this->third_level = $structure[2];
 
         return true;
     }
@@ -127,8 +143,10 @@ class WoonhomeShare {
                 $api_url = $this->product_api_url . 'product?slug=' . $this->second_level . '&type=' . $this->first_level;
                 break;
             case 'wooninspiratie':
+                $api_url = $this->content_api_url . $this->first_level . '?slug=' . $this->second_level . '&v=2&type=live';
+                break;
             case 'woonwiki':
-                $api_url = '';
+                $api_url = $this->content_api_url . $this->first_level . '?id=slug-' . $this->third_level;
                 break;
         }
 
@@ -136,9 +154,39 @@ class WoonhomeShare {
             $client = new Client();
             $res = $client->request('GET', $api_url);
 
+            // Check the request
             $status = $res->getStatusCode();
-            $body = json_decode($res->getBody());
-            return $body->data;
+            if ($status == 200) {
+                $body = json_decode($res->getBody());
+
+                // Check the return data per level
+                if ($this->first_level == 'sale' || $this->first_level == 'product') {
+                    if ($body->data->status == 200) {
+                        return $body->data;
+                    } else {
+                        // Requested data not found (404) or an error, redirect
+                        echo 'error 2';
+                        //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+                        exit;
+                    }
+                } else {
+                    if (count($body->items) > 0) {
+                        return $body;
+                    } else {
+                        // Requested data not found (404) or an error, redirect
+                        echo 'error 3';
+                        //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+                        exit;
+                    }
+                }
+
+            } else {
+                // Not a successful API result, redirect
+                echo 'error 1';
+                //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+                exit;
+            }
+
         } catch(ClientException $e) {
             throw new \ErrorException($e->getResponse(), 400);
         }
@@ -154,9 +202,9 @@ class WoonhomeShare {
     {
 
         $content = new Template();
-        $content_template = $content->getTemplateContent("product.html");
+        $content_template = $content->getTemplateContent($this->first_level.".html");
 
-        $parsed_content = $content->parseTemplate(json_encode($data), $content_template);
+        $parsed_content = $content->parseTemplate($this->first_level, json_encode($data), $content_template);
 
         echo $parsed_content;
     }
