@@ -1,0 +1,15 @@
+{
+    "name": "studioibizz/woonhome-share-v1",
+    "description": "A share solution for Woonhome.",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "classmap": ["application"]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5.5"
+    }
+}

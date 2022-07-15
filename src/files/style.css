@@ -1,0 +1,222 @@
+body {
+    position: relative;
+    width: 100%;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #EBF4F9;
+}
+h1 {
+    font-size: 28px;
+    color: #273A57;
+    font-weight: 700;
+}
+h2 {
+    color: #273A57;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    position: relative;
+    height: auto;
+    align-self: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 20px;
+    box-shadow: 0 9px 3px -6px rgb(0 53 75 / 8%);
+}
+.wrapper.small {
+    max-width: 600px;
+}
+.wrapper::after, .images-wrapper::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.half {
+    position: relative;
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.images-wrapper {
+    position: relative;
+    clear: both;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 150%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    overflow: hidden;
+}
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: none;
+    transition: all .2s linear;
+}
+
+.singleproduct .priceprod {
+    height: 38px;
+    margin-top: 10px;
+}
+.singleproduct .priceprod span {
+    margin-right: 12px !important;
+    position: relative !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-stretch: normal !important;
+    line-height: 34px !important;
+    letter-spacing: normal !important;
+    color: #273a57 !important;
+}
+.singleproduct .priceprod span.from:before {
+    content: ""!important;
+    position: absolute!important;
+    left: -0.1em!important;
+    right: -0.1em!important;
+    top: 0.38em!important;
+    bottom: 0.38em!important;
+    background: linear-gradient(to left top,transparent 45.5%,#62869e 47.5%,#62869e 52.5%,transparent 54.5%)!important;
+    pointer-events: none!important;
+    color: #62869e!important;
+}
+.singleproduct .priceprod span.green {
+    color: #19ae5f!important;
+}
+
+.singleproduct .singledesc, .singleproduct .singleprops {
+    margin: 1rem 0;
+    color: #2b2b2b;
+}
+.singleproduct .singleprops .proprow {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    clear: both;
+}
+.singleproduct .singleprops .proprow .propleft {
+    width: 40%;
+    float: left;
+}
+.singleproduct .singleprops .proprow .propright {
+    width: 55%;
+    float: left;
+}
+
+.btnblue {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    padding: 0 25px;
+    height: 50px;
+    border-radius: 69px;
+    background-color: #0192f6;
+    border: 2px solid #0192f6;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    width: auto;
+}
+.btnblue:hover {
+    background-color: #ffffff;
+    color: #0192f6;
+}
+.btngreen {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    padding: 0 25px;
+    height: 50px;
+    border-radius: 69px;
+    background-color: #19ae5f;
+    border: 2px solid #19ae5f;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    width: auto;
+}
+.btngreen:hover {
+    background-color: #ffffff;
+    color: #19ae5f;
+}
+
+.authorinfowrap {
+    position: relative;
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    min-height: 71px;
+}
+.authorinfowrapdetails a, .authorinfowrapdetails h3 {
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    text-decoration: inherit;
+}
+.authorinfowrapdetails a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.single-author-avatar {
+    width: 71px;
+    height: 71px;
+    float: left;
+    margin-right: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.single-author-avatar img {
+    width: 100%;
+    height: auto;
+    min-height: inherit;
+    min-width: inherit;
+    border-radius: 50%;
+}
+.authorinfowrapdetails {
+    float: left;
+    text-align: left;
+    padding-top: 8px;
+    margin-left: 0;
+}
+.single-author-body {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+.single-author-body p {
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #2b2b2b;
+    min-height: 16px;
+}

@@ -7,6 +7,10 @@
 node_modules/
 dist/
 
+# External library, loaded by Composer
+src/vendor/
+src/tmp/
+
 # Compiled Java class files
 *.class
 
