@@ -75,22 +75,16 @@ class WoonhomeShare {
 
         // Return to website if structure is not set or empty
         if (!$structure || count($structure) == 0) {
-            echo 'empty: to '.$this->website_url;
-            exit;
             Structure::redirect($this->website_url, '302');
             exit;
         }
 
-        /*if (!Structure::isAllowedUserAgent()) {
-            echo 'not allowed user agent: to '.$this->website_url . Structure::structureToPath();
-            exit;
+        if (!Structure::isAllowedUserAgent()) {
             Structure::redirect($this->website_url . Structure::structureToPath(), '302');
             exit;
-        }*/
+        }
 
         if (!$this->isShareValid($structure)) {
-            echo 'no valid share: to '.$this->website_url . Structure::structureToPath();
-            exit;
             Structure::redirect($this->website_url . Structure::structureToPath(), '302');
             exit;
         }
