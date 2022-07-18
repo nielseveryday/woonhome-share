@@ -94,12 +94,12 @@ abstract class Structure
     public static function setUserAgent()
     {
         $http_user_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
-        if (strpos($t, 'pinterest')) static::$user_agent = 'Pinterest';
-        elseif (strpos($t, 'facebook')) static::$user_agent = 'Facebook';
-        elseif (strpos($t, 'twitter')) static::$user_agent = 'Twitter';
-        elseif (strpos($t, 'crawler')) static::$user_agent = 'Other crawler';
-        elseif (strpos($t, 'bot')) static::$user_agent = 'Other bot';
-        elseif (strpos($t, 'spider')) static::$user_agent = 'Other spider';
+        if (strpos($http_user_agent, 'pinterest')) static::$user_agent = 'Pinterest';
+        elseif (strpos($http_user_agent, 'facebook')) static::$user_agent = 'Facebook';
+        elseif (strpos($http_user_agent, 'twitter')) static::$user_agent = 'Twitter';
+        elseif (strpos($http_user_agent, 'crawler')) static::$user_agent = 'Other crawler';
+        elseif (strpos($http_user_agent, 'bot')) static::$user_agent = 'Other bot';
+        elseif (strpos($http_user_agent, 'spider')) static::$user_agent = 'Other spider';
         else static::$user_agent = 'other';
     }
 
