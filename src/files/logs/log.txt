@@ -1,1 +1,24 @@
-2022-07-20 10:35:20: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.362022-07-20 10:35:32: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:17:30: mozilla/5.0 (Facebook nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:17:30: Found UserAgent: other
+2022-07-20 11:17:30: UserAgent other not allowed.
+2022-07-20 11:17:47: mozilla/5.0 (Pinterest nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:17:47: Found UserAgent: other
+2022-07-20 11:17:47: UserAgent other not allowed.
+2022-07-20 11:19:19: mozilla/5.0 (Pinterest nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:19:19: Found UserAgent: other
+2022-07-20 11:19:19: UserAgent other not allowed.
+2022-07-20 11:19:54: mozilla/5.0 (Pinterest nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:19:54: Found UserAgent: other
+2022-07-20 11:19:54: UserAgent other not allowed.
+2022-07-20 11:20:13: mozilla/5.0 (Pinterest nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:20:13: Found UserAgent: other
+2022-07-20 11:20:13: UserAgent other not allowed.
+2022-07-20 11:20:39: mozilla/5.0 (pinterest nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:20:39: Found UserAgent: Pinterest
+2022-07-20 11:20:39: UserAgent Pinterest allowed.
+2022-07-20 11:20:53: mozilla/5.0 (pinterest nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:20:53: Found UserAgent: Pinterest
+2022-07-20 11:20:53: UserAgent Pinterest allowed.
+2022-07-20 11:21:09: mozilla/5.0 (facebookding nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
+2022-07-20 11:21:09: Found UserAgent: Facebook
+2022-07-20 11:21:09: UserAgent Facebook allowed.

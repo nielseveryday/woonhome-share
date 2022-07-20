@@ -98,37 +98,24 @@ abstract class Structure
         // Add log
         static::addLog($http_user_agent);
 
-        switch($http_user_agent) {
-            case (strpos($http_user_agent, 'pinterest')):
-                static::$user_agent = 'Pinterest';
-                break;
-            case (strpos($http_user_agent, 'facebook')):
-                static::$user_agent = 'Facebook';
-                break;
-            case (strpos($http_user_agent, 'twitter')):
-                static::$user_agent = 'Twitter';
-                break;
-            case (strpos($http_user_agent, 'crawler')):
-                static::$user_agent = 'Other crawler';
-                break;
-            case (strpos($http_user_agent, 'bot')):
-                static::$user_agent = 'Other bot';
-                break;
-            case (strpos($http_user_agent, 'spider')):
-                static::$user_agent = 'Other spider';
-                break;
-            default:
-                static::$user_agent = 'other';
-                break;
+        static::$user_agent = 'other';
+        if (strpos($http_user_agent, 'pinterest') !== false) {
+            static::$user_agent = 'Pinterest';
         }
-        /*if (strpos($http_user_agent, 'pinterest')) static::$user_agent = 'Pinterest';
-        elseif (strpos($http_user_agent, 'facebook')) static::$user_agent = 'Facebook';
-        elseif (strpos($http_user_agent, 'twitter')) static::$user_agent = 'Twitter';
-        elseif (strpos($http_user_agent, 'crawler')) static::$user_agent = 'Other crawler';
-        elseif (strpos($http_user_agent, 'bot')) static::$user_agent = 'Other bot';
-        elseif (strpos($http_user_agent, 'spider')) static::$user_agent = 'Other spider';
-        else static::$user_agent = 'other';*/
-        static::addLog('Found UserAgent: '.static::$user_agent);
+        if (strpos($http_user_agent, 'facebook') !== false) {
+            static::$user_agent = 'Facebook';
+        }
+        if (strpos($http_user_agent, 'facebook') !== false) {
+            static::$user_agent = 'Facebook';
+        }
+        if (strpos($http_user_agent, 'facebook') !== false) {
+            static::$user_agent = 'Facebook';
+        }
+        if (strpos($http_user_agent, 'twitter') !== false) {
+            static::$user_agent = 'Twitter';
+        }
+
+        static::addLog('UserAgent set: ' . $http_user_agent);
     }
 
     /**
