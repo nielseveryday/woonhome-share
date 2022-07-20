@@ -94,6 +94,10 @@ abstract class Structure
     public static function setUserAgent()
     {
         $http_user_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+
+        // Add log
+        static::addLog($http_user_agent);
+
         if (strpos($http_user_agent, 'pinterest')) static::$user_agent = 'Pinterest';
         elseif (strpos($http_user_agent, 'facebook')) static::$user_agent = 'Facebook';
         elseif (strpos($http_user_agent, 'twitter')) static::$user_agent = 'Twitter';
@@ -311,4 +315,12 @@ abstract class Structure
         header("Location: ".$url, true, $header);
         exit;
     }
+
+    public static function addLog($msg)
+    {
+        $file = fopen("files/logs/log.txt", "a");
+        fwrite($file, date('Y-m-d H:i:s') . ': ' . $msg);
+        fclose($file);
+    }
+
 }
