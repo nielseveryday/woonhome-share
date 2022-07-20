@@ -105,6 +105,7 @@ abstract class Structure
         elseif (strpos($http_user_agent, 'bot')) static::$user_agent = 'Other bot';
         elseif (strpos($http_user_agent, 'spider')) static::$user_agent = 'Other spider';
         else static::$user_agent = 'other';
+        static::addLog('Found UserAgent: '.static::$user_agent);
     }
 
     /**
@@ -123,8 +124,10 @@ abstract class Structure
     public static function isAllowedUserAgent()
     {
         if (in_array(static::$user_agent, static::$social_user_agents)) {
+            static::addLog('UserAgent '. static::$user_agent. ' allowed');
             return true;
         }
+        static::addLog('UserAgent '. static::$user_agent. 'not allowed');
         return false;
     }
 
