@@ -178,3 +178,6 @@
 2022-09-01 10:12:39: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
 2022-09-01 10:12:39: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
 2022-09-01 10:12:39: UserAgent other not allowed.
+2022-09-01 13:42:46: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 13:42:46: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 13:42:46: UserAgent other not allowed.

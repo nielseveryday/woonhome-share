@@ -74,7 +74,7 @@ class Template {
                             if ($discount !== $price) {
                                 $value = '<span class="from" itemprop="price" >€ '.$price.'</span> <span class="green">€ '.$discount.'</span>';
                             } else {
-                                $value = '<span class="green">€ '.$price.'</span>';
+                                $value = '<span class="green" itemprop-="price">€ '.$price.'</span>';
                             }
                         }
                         if (str_starts_with($key,'c_') && $value == 1) {
@@ -129,7 +129,7 @@ class Template {
             if ($part == 'items' && isset($data[0])) {
                 foreach ($data[0] as $key => $value) {
                     if ($key == 'post_content') {
-                        $value = str_replace('alt="', 'data-pin-description="', $value);
+                        $value = str_replace('alt="',  'itemprop="image" alt="', $value);
                     }
                     if (is_string($value) || is_float($value) || is_numeric($value)) {
                         $placeholder_data = str_replace("##$key##", $value, $placeholder_data);
