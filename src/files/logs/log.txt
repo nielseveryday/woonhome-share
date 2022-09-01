@@ -22,3 +22,159 @@
 2022-07-20 11:21:09: mozilla/5.0 (facebookding nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/103.0.0.0 safari/537.36
 2022-07-20 11:21:09: Found UserAgent: Facebook
 2022-07-20 11:21:09: UserAgent Facebook allowed.
+2022-09-01 09:02:16: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:02:16: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:02:16: UserAgent other not allowed.
+2022-09-01 09:02:38: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:02:38: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:30: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:30: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:30: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:30: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:30: UserAgent other not allowed.
+2022-09-01 09:03:38: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:38: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:38: UserAgent other not allowed.
+2022-09-01 09:03:51: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:51: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:03:51: UserAgent other not allowed.
+2022-09-01 09:04:19: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:04:19: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:04:19: UserAgent other not allowed.
+2022-09-01 09:13:33: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:13:33: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:13:33: UserAgent other not allowed.
+2022-09-01 09:13:44: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:13:44: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:13:44: UserAgent other not allowed.
+2022-09-01 09:14:12: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:14:12: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:14:12: UserAgent other not allowed.
+2022-09-01 09:16:33: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:16:33: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:16:33: UserAgent other not allowed.
+2022-09-01 09:16:50: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:16:50: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:16:50: UserAgent other not allowed.
+2022-09-01 09:17:59: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:17:59: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:17:59: UserAgent other not allowed.
+2022-09-01 09:18:23: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:18:23: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:18:23: UserAgent other not allowed.
+2022-09-01 09:23:41: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:23:41: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:23:41: UserAgent other not allowed.
+2022-09-01 09:32:02: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:32:02: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:32:02: UserAgent other not allowed.
+2022-09-01 09:49:44: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:49:44: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:49:44: UserAgent other not allowed.
+2022-09-01 09:50:09: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:50:09: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:50:09: UserAgent other not allowed.
+2022-09-01 09:50:44: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:50:44: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:50:56: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:50:56: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:50:56: UserAgent other not allowed.
+2022-09-01 09:51:09: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:51:09: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:51:09: UserAgent other not allowed.
+2022-09-01 09:51:16: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:51:16: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:51:16: UserAgent other not allowed.
+2022-09-01 09:51:22: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:51:22: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:51:22: UserAgent other not allowed.
+2022-09-01 09:53:13: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:53:13: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:53:13: UserAgent other not allowed.
+2022-09-01 09:54:03: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:54:03: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:54:03: UserAgent other not allowed.
+2022-09-01 09:54:11: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:54:11: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:54:11: UserAgent other not allowed.
+2022-09-01 09:54:24: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:54:24: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:54:24: UserAgent other not allowed.
+2022-09-01 09:55:29: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:55:29: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:55:29: UserAgent other not allowed.
+2022-09-01 09:55:46: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:55:46: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:55:46: UserAgent other not allowed.
+2022-09-01 09:56:11: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:56:11: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:56:11: UserAgent other not allowed.
+2022-09-01 09:56:28: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:56:28: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:56:28: UserAgent other not allowed.
+2022-09-01 09:57:02: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:02: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:02: UserAgent other not allowed.
+2022-09-01 09:57:06: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:06: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:06: UserAgent other not allowed.
+2022-09-01 09:57:25: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:25: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:25: UserAgent other not allowed.
+2022-09-01 09:57:47: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:47: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:57:47: UserAgent other not allowed.
+2022-09-01 09:59:14: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:59:14: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:59:14: UserAgent other not allowed.
+2022-09-01 09:59:51: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:59:51: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 09:59:51: UserAgent other not allowed.
+2022-09-01 10:00:08: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:00:08: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:00:08: UserAgent other not allowed.
+2022-09-01 10:00:13: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:00:13: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:00:13: UserAgent other not allowed.
+2022-09-01 10:02:20: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:02:20: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:02:20: UserAgent other not allowed.
+2022-09-01 10:03:00: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:03:00: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:03:00: UserAgent other not allowed.
+2022-09-01 10:04:12: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:04:12: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:04:12: UserAgent other not allowed.
+2022-09-01 10:04:21: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:04:21: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:04:21: UserAgent other not allowed.
+2022-09-01 10:04:40: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:04:40: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:04:40: UserAgent other not allowed.
+2022-09-01 10:05:53: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:05:53: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:05:53: UserAgent other not allowed.
+2022-09-01 10:06:17: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:06:17: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:06:17: UserAgent other not allowed.
+2022-09-01 10:06:19: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:06:19: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:06:19: UserAgent other not allowed.
+2022-09-01 10:07:25: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:07:25: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:07:25: UserAgent other not allowed.
+2022-09-01 10:12:08: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:08: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:08: UserAgent other not allowed.
+2022-09-01 10:12:12: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:12: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:12: UserAgent other not allowed.
+2022-09-01 10:12:25: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:25: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:25: UserAgent other not allowed.
+2022-09-01 10:12:27: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:27: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:27: UserAgent other not allowed.
+2022-09-01 10:12:39: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:39: UserAgent set: mozilla/5.0 (windows nt 10.0; win64; x64) applewebkit/537.36 (khtml, like gecko) chrome/104.0.0.0 safari/537.36
+2022-09-01 10:12:39: UserAgent other not allowed.

@@ -55,6 +55,8 @@ class Template {
      */
     private function parseProduct($template_content, $placeholder_data)
     {
+        $price = 0;
+        $discount = 0;
         foreach($template_content as $part => $data) {
             if ($part == 'product' && isset($data[0])) {
                 $colors = array();
@@ -63,6 +65,17 @@ class Template {
                     if (is_string($value) || is_float($value) || is_numeric($value)) {
                         if ($key == 'price' || $key == 'discount') {
                             $value = number_format(($value/100), 2, ',', '.');
+                        }
+                        if ($key == 'price') {
+                            $price = $value;
+                        }
+                        if ($key == 'discount') {
+                            $discount = $value;
+                            if ($discount !== $price) {
+                                $value = '<span class="from" itemprop="price" >€ '.$price.'</span> <span class="green">€ '.$discount.'</span>';
+                            } else {
+                                $value = '<span class="green">€ '.$price.'</span>';
+                            }
                         }
                         if (str_starts_with($key,'c_') && $value == 1) {
                             $colors[] = ucfirst(str_replace('c_', '', $key));
@@ -115,6 +128,9 @@ class Template {
         foreach($template_content as $part => $data) {
             if ($part == 'items' && isset($data[0])) {
                 foreach ($data[0] as $key => $value) {
+                    if ($key == 'post_content') {
+                        $value = str_replace('alt="', 'data-pin-description="', $value);
+                    }
                     if (is_string($value) || is_float($value) || is_numeric($value)) {
                         $placeholder_data = str_replace("##$key##", $value, $placeholder_data);
                     }

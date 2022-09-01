@@ -117,7 +117,7 @@ class WoonhomeShare {
         // Set values
         $this->first_level = $structure[0];
         $this->second_level = $structure[1];
-        $this->third_level = $structure[2];
+        $this->third_level = $structure[2]??'';
 
         return true;
     }
@@ -159,8 +159,7 @@ class WoonhomeShare {
                         return $body->data;
                     } else {
                         // Requested data not found (404) or an error, redirect
-                        echo 'error 2';
-                        //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+                        Structure::redirect($this->website_url . Structure::structureToPath(), '302');
                         exit;
                     }
                 } else {
@@ -168,16 +167,14 @@ class WoonhomeShare {
                         return $body;
                     } else {
                         // Requested data not found (404) or an error, redirect
-                        echo 'error 3';
-                        //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+                        Structure::redirect($this->website_url . Structure::structureToPath(), '302');
                         exit;
                     }
                 }
 
             } else {
                 // Not a successful API result, redirect
-                echo 'error 1';
-                //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+                Structure::redirect($this->website_url . Structure::structureToPath(), '302');
                 exit;
             }
 
