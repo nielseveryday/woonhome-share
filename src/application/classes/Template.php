@@ -72,9 +72,9 @@ class Template {
                         if ($key == 'discount') {
                             $discount = $value;
                             if ($discount !== $price) {
-                                $value = '<span class="from" itemprop="price" >€ '.$price.'</span> <span class="green">€ '.$discount.'</span>';
+                                $value = '<span class="from" itemprop="price">€ '.$price.'</span> <span class="green">€ '.$discount.'</span>';
                             } else {
-                                $value = '<span class="green" itemprop-="price">€ '.$price.'</span>';
+                                $value = '<span class="green" itemprop="price">€ '.$price.'</span>';
                             }
                         }
                         if (str_starts_with($key,'c_') && $value == 1) {
