@@ -72,27 +72,23 @@ class WoonhomeShare {
     {
         // Get the structure
         $structure = Structure::getStructure();
-        var_dump($structure);
 
         // Return to website if structure is not set or empty
         if (!$structure || count($structure) == 0) {
-            echo '>>1<<';
-            //Structure::redirect($this->website_url, '302');
-            //exit;
+            Structure::redirect($this->website_url, '302');
+            exit;
         }
 
         if (!Structure::isAllowedUserAgent()) {
-            echo '>>2<<';
-            //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
-            //exit;
+            Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+            exit;
         }
 
         if (!$this->isShareValid($structure)) {
-            echo '>>2<<';
-            //Structure::redirect($this->website_url . Structure::structureToPath(), '302');
-            //exit;
+            Structure::redirect($this->website_url . Structure::structureToPath(), '302');
+            exit;
         }
-        exit;
+
         $data = $this->callApi();
         $this->buildPage($data);
     }
